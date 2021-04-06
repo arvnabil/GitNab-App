@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".ui.SplashScreen">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/logosplash"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_below="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:textColor="@color/secondaryColor"
+        android:textSize="28sp"
+        android:text="@string/app_name"
+        />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginBottom="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="@string/version"
+        android:textColor="@color/secondaryColor"
+        android:textSize="20sp" />
+
+</RelativeLayout>
