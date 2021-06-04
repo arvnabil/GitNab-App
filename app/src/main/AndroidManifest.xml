@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.instechrx.gitnabilapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <permission
+        android:name="com.instechrx.gitnabilapp.READ_DATABASE"/>
+    <permission
+        android:name="com.instechrx.gitnabilapp.WRITE_DATABASE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+        <activity android:name=".ui.FavoriteActivity" />
+        <activity android:name=".ui.AboutActivity" />
+        <activity android:name=".ui.DetailActivity" />
+        <activity android:name=".ui.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.SettingsActivity" />
+        <activity android:name=".ui.MainActivity" />
+
+        <receiver
+            android:name=".reminder.MyReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="TODO"
+            tools:ignore="ExportedReceiver" />
+        <provider
+            android:name=".provider.MyContentProvider"
+            android:authorities="com.instechrx.gitnabilapp"
+            android:exported="true"
+            android:readPermission="com.instechrx.gitnabilapp.READ_DATABASE"
+            android:writePermission="com.instechrx.gitnabilapp.WRITE_DATABASE" />
+
+    </application>
+
+</manifest>

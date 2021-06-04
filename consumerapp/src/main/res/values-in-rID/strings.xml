@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Consumer App</string>
+    <string name="version">v2.0</string>
+    <string name="name">Nabil</string>
+    <string name="description">JVMDeveloperID @KotlinID @IDDevOps</string>
+    <string name="numFollowing">0</string>
+    <string name="txtFollowing">Mengikuti</string>
+    <string name="numFollowers">0</string>
+    <string name="txtFollowers">Pengikut</string>
+    <string name="repositori">Repositori</string>
+    <string name="numRepo">0</string>
+    <string name="todo">TODO</string>
+    <string name="txtProfile">Profil</string>
+    <string name="txtAbout">Tentang Nabil</string>
+    <string name="txtMessageExit">Klik kembali lagi untuk Keluar</string>
+    <string name="pencarianUser">Ketik di sini untuk mencari pengguna</string>
+    <string name="action_about">Aksi Tentang</string>
+    <string name="action_language">Aksi Bahasa</string>
+
+    <string name="check_connection">Periksa koneksi internet Kamu ya</string>
+    <string name="settings">Pengaturan</string>
+    <string name="language">Bahasa</string>
+    <string name="github_nabil">Github Nabil</string>
+    <string name="email">nabilalcha58@gmail.com</string>
+    <string name="github_link">Github Link:</string>
+    <string name="txtLink">www.github.com/arvnabil</string>
+    <string name="nullEmailData">Email tidak ada</string>
+    <string name="nullCompanyData">Perusahaan tidak ada</string>
+    <string name="nullLocationData">Lokasi tidak ada</string>
+    <string name="nullBioData">Bio tidak ada</string>
+
+    <string name="spaceName">_______________</string>
+    <string name="spaceCompany">____________________________________</string>
+    <string name="spaceLocation">_________________________________________</string>
+
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="msg_daily_reminder">Pengingat Harian Telah Datang!</string>
+    <string name="title_daily_reminder">Halo, ini pengingat khusus untuk kamu</string>
+    <string name="msg_daily">Silakan lihat kembali favorit pengguna kamu</string>
+    <string name="msg_fav">Terima kasih, Kamu telah menambahkan aku ke favorit!</string>
+    <string name="msg_unfav">User telah berhasil dihapus</string>
+    <string name="msg_onswitch">Bagus, Pengingat diaktifkan setiap jam 9 pagi</string>
+    <string name="msg_offswitch">Ohh tidak, Pengingat tidak diaktifkan</string>
+    <string name="favorite_user">Favorit Pengguna</string>
+</resources>

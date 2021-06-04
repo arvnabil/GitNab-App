@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">GitNab User App</string>
+    <string name="version" translatable="false">v2.0</string>
+    <string name="name" translatable="false">Nabil</string>
+    <string name="description" translatable="false">JVMDeveloperID @KotlinID @IDDevOps</string>
+    <string name="numFollowing" translatable="false">0</string>
+    <string name="txtFollowing" translatable="false">Following</string>
+    <string name="numFollowers" translatable="false">0</string>
+    <string name="txtFollowers" translatable="false">Followers</string>
+    <string name="repositori" translatable="false">Repository</string>
+    <string name="numRepo" translatable="false">0</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="txtProfile" translatable="false">Profile</string>
+    <string name="txtAbout" translatable="false">About Nabil</string>
+    <string name="txtMessageExit" translatable="false">Click back again to Exit</string>
+    <string name="pencarianUser" translatable="false">Type here to search user</string>
+    <string name="action_about" translatable="false">Action About</string>
+    <string name="action_language" translatable="false">Action Language</string>
+
+    <string name="check_connection" translatable="false">Check your connection</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="language" translatable="false">Language</string>
+    <string name="github_nabil" translatable="false">Github Nabil</string>
+    <string name="email" translatable="false">nabilalcha58@gmail.com</string>
+    <string name="github_link" translatable="false">Github Link:</string>
+    <string name="txtLink" translatable="false">www.github.com/arvnabil</string>
+    <string name="nullEmailData" translatable="false">Email does not exist</string>
+    <string name="nullCompanyData" translatable="false">Company does not exist</string>
+    <string name="nullLocationData" translatable="false">Location does not exist</string>
+    <string name="nullBioData" translatable="false">Bio does not exist</string>
+
+    <string name="spaceName" translatable="false">_______________</string>
+    <string name="spaceCompany" translatable="false">____________________________________</string>
+    <string name="spaceLocation" translatable="false">_________________________________________</string>
+
+    <string name="daily_reminder" translatable="false">Daily Reminder</string>
+    <string name="msg_daily_reminder" translatable="false">Daily Reminder Has Arrived!</string>
+    <string name="title_daily_reminder" translatable="false">Hi there, this is special reminder for you</string>
+    <string name="msg_daily" translatable="false">Please take a look back at your user favorites</string>
+    <string name="msg_fav" translatable="false">Thanks, you add me to favorite!</string>
+    <string name="msg_unfav" translatable="false">User has been successfully deleted</string>
+    <string name="msg_onswitch" translatable="false">Great, Reminder is activated every 9 am</string>
+    <string name="msg_offswitch" translatable="false">Ohh no, Reminder is not activated</string>
+    <string name="favorite_user" translatable="false">Favorite User</string>
+</resources>

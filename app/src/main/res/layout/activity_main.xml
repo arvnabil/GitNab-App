@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryColor"
+    tools:context=".ui.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle_headbar"
+        android:gravity="center"
+        android:theme="@style/ToolbarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/secondaryColor" />
+
+    <SearchView
+        android:id="@+id/searchUser"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/shape_rectangle_search_white_rounded"
+        android:queryBackground="@drawable/shape_rectangle_search_white_rounded"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/pencarianUser"
+        android:theme="@style/SearchViewTheme"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <ImageView
+        android:id="@+id/ivEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/empty"
+        app:layout_constraintTop_toBottomOf="@+id/searchUser" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </FrameLayout>
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rvListUsers"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/searchUser"-->
+<!--        tools:listitem="@layout/item_list" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
